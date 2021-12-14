@@ -4,6 +4,7 @@ begin
 	  integer m,n;
 	  begin
 		integer r;
+		if m < n then Euclid(n,m);
 	   LOOP:
 		r := m - entier(m / n) * n;
 		if r = 0 then goto EXIT; 
