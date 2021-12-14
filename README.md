@@ -10,7 +10,7 @@ Here's a list of algorithm implemented so far:
 
 ## How to install Algol60 on your computer? ##
 
-There a variety of solutions, all available on [Algol60.org](http://www.algol60.org/3translators.htm).
+There are a variety of solutions, all available on [Algol60.org](http://www.algol60.org/3translators.htm).
 I personally used the Python implementation, which can be readily be used modifying the file found in the zip algol60i/bin. Just append a .py file format to the file and run it with python, followed by the full path of the .a60 file.
 
 Enjoy
