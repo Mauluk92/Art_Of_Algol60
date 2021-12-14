@@ -1,0 +1,19 @@
+begin
+	integer procedure Euclid(m,n);
+	  value m,n; 
+	  integer m,n;
+	  begin
+		real r;
+	   LOOP:
+		r := m - entier(m / n) * n;
+		if r = 0 then goto EXIT; 
+		m := n; 
+		n := r; 
+		goto LOOP;
+	   EXIT:
+	    Euclid := n;
+	  end Euclid;
+    integer m,n;
+    read(m,n);
+    outinteger(1, Euclid(m,n));
+end
