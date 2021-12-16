@@ -12,9 +12,9 @@ The algorithm is quite simple:
 ## Implementation in Algol60 ##
 
 I implemented the algorithm with a procedure called `Euclid`, which is, basically, a function with two variables (namely, m and n).
-Also i introduced a condition: if m is lesser than n, then swap the arguments (this is useful in order to achieve efficiency in code)
+Also i introduced a condition: if m is lesser than n, then swap the arguments (this is useful in order to achieve efficiency in code).  
 I subsequently introduced two labels inside the procedure (`LOOP` and `EXIT`): the first (`LOOP`) is used to iterate until the result has been reached, while `EXIT` is used as exit from the precedent loop.
-The procedure subsequently returns the greatest common divisor, which is then displayed as output in console.
+The procedure returns the greatest common divisor, which is then displayed as output in console.
 
 
 
