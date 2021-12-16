@@ -1,4 +1,3 @@
-begin
 	integer procedure Euclid(m,n);
 	  value m,n; 
 	  integer m,n;
@@ -14,7 +13,9 @@ begin
 	   EXIT:
 	        Euclid := n;
 	  end Euclid;
+begin
     integer m,n;
-    read(m,n);
+    ininteger(0,m);
+    ininteger(0,n);
     outinteger(1, Euclid(m,n));
 end
